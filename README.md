@@ -1,6 +1,4 @@
 
-<p align="center"><img src="public\logo pink.svg" width="400"></p>
-
 
 ## About E-shopper
 
