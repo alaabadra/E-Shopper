@@ -1,78 +1,87 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<p align="center"><img src="public\logo pink.svg" width="400"></p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About E-shopper
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+E-shopper is a website  application  to make online shopping that contains many features :
+* enter into it without register , by using user account , and admin account 
+Which is : 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+**Pages without need into register**
+- will show : 
+  * home page : 
+   contains on many sections 
+    - search a product or products
+    - view all t-shirts 
+    - view all bags
+    - view all dresses
+    - view products : 
+       * that exist in website -> high quantity 
+       * that exist in website -> high price
+       * that exist in website -> high feature 
+    - Modern Products  
+    - make subscribe in website
+    - all pages categories and products that it  inside these categories and view details this product , 
+       but can not make any functionlaty in page view details (add to cart , add to fav , add review)
+    - contact , but  must be register in website
+So will register in website to make these functionalty and more .
+----------------------------------------------------------------
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Pages when register**
+ - when register in website will send into email to confirmation , after this confirmation , when enter in website will send another message (Welcome message)
+Now 💯 
+this user can make many functionalty:
+1. edit profile user and add image
+2.  add a product into your cart  beside word cart
+3.  show your cart that it contains these products
+now became num 2 in navbar as you seen 
+4. add a product into favourite, also will change the num in navbar beside word favoruite
+5. see all reviewer a product, and your review on this product , and  when show reviews on this product , if your review is exist in it , you  can edit and delete it , but another reviews  , you can't make any fun on it , because these not for me.
+5. add a product into your orders
+6.  view details order that contains on a product.
+7. make payment by using COD , and will come  a msg into your email contains all information on my order and type payment method
+8. make delivery:  this step before view your order 
+9. add or edit a coupon.
+10.  section contact us to send msg into admin email 
+11. edit your password
+12. reset the password ,  it redirects into login direct and sends a msg into this email, i will check it to enter in the password that it send in email
+13. can share this website in another websites like : facbook , email and so on
+14.  check pincode in page view Details
+----------------------------------------------------------------
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Pages in Admin Account**
 
-## Laravel Sponsors
+* admin can add/edit/delete:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+    1- main category 
+    2- sub category 
+    3- products in this subCategory 
+    4- details a product 
+    5- banner
+    6- cart 
+    7- order 
+    8- coupon.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+        And exsit  num status means that : 
+        this main category conatins  enough sub category or not 
+        if 0: will be come soon 
+        if 1 : will be finish
+        if 2 : exsit enough quantity 
 
-## Contributing
+* admin can view all admins , which is  exsit main admins and subadmin 
+which is the main admin , can view and make any functionalty in nay page , but the subAdmin , just can view these pages and make some functionlaty , accorrding the accessbilty
+such as : 
+	ali@gmail.com this email is subAdmin becuase he has not all accessbilty 
+    will can not show page products and edit category . 
+    But  Admin  can do all things 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## Developed by :
+- **[Eng-Alaa Badra](https://www.linkedin.com/in/eng-alaa-badra/)**
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## My Wishes
 
-## Security Vulnerabilities
+I hope enjoy in my website .
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
